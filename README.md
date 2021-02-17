@@ -74,6 +74,16 @@ recommend using [`NoIP`][]'s client to have a free, public domain name. Their
 startup documentation is good enough, so I recommend reading it if you want to
 pursue this route, but I won't be covering it in this guide.
 
+Private servers have to be added and connected through the Steam client. You
+will be prompted twice for the password you pass to the script: once at the
+Steam UI and once at the game's UI.
+
+![steam-servers-view][]
+
+![steam-servers-favorites][]
+
+The server is connected to in the form of `ip-octets:2457` or `hostname:2457`.
+
 ## Running the Script
 
 Open up PowerShell and run the following commands, replacing the placeholders
@@ -99,3 +109,5 @@ C:\> powershell -ExecutionPolicy Bypass -File "PATH\TO\start.ps1" -Path "PATH_FR
 [steam-tools-copy-path]: <./docs/steam-tools-copy-path.png>
 [firewall-rules]: <./docs/firewall-rules.png>
 [`NoIP`]: <https://www.noip.com/remote-access>
+[steam-servers-view]: <./docs/steam-servers-view.png>
+[steam-servers-favorites]: <./docs/steam-servers-favorites.png>
