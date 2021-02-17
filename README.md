@@ -82,7 +82,13 @@ according to where you have things downloaded or installed on your local PC:
 ```powershell
 PS C:\> Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force  # enables running the script
 PS C:\> Set-Location -Path "DOWNLOAD_LOCATION"
-PS C:\> ./start.ps1 -Path "PATH_FROM_SETUP" -World myworld -Server myserver
+PS C:\> ./start.ps1 -Path "PATH_FROM_SETUP" -World myworld -Server servername
+```
+
+or launched from `cmd`:
+
+```batch
+> powershell -ExecutionPolicy Bypass -File "PATH\TO\start.ps1" -Path "PATH_FROM_SETUP" -World myworld -Server servername
 ```
 
 [power-user-menu]: <./docs/power-user-menu.png>
