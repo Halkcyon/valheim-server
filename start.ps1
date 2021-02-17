@@ -21,7 +21,6 @@ param(
     $IsCommunityServer = $true,
 
     [Parameter(DontShow, HelpMessage = 'Port the game server binds to. Recommends forwarding 2456-2458')]
-    [Alias('Port')]
     [uint16]
     $Port = 2456
 )
