@@ -1,0 +1,7 @@
+{
+    "python.languageServer": "Pylance",
+    "python.pythonPath": ".venv\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "yapf"
+}

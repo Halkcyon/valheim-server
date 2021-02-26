@@ -5,16 +5,16 @@ param(
     [Parameter(HelpMessage = 'Path to the `valheim_server` executable')]
     [Alias('ValheimPath')]
     [System.IO.DirectoryInfo]
-    $Path = "${Env:ProgramFiles(x86)}\Steam\steamapps\common\Valheim dedicated server",
+    $Path = "Z:\Steam\steamapps\common\Valheim dedicated server",
 
     [Parameter(HelpMessage = 'Name of the savefile minus its extension')]
     [string]
-    $World = 'MyWorld',
+    $World = 'EXTRASEEDY',
 
     [Parameter(HelpMessage = 'Name of the server displayed in lists')]
     [Alias('ServerName')]
     [string]
-    $Name = 'COMM_SERVER_1',
+    $Name = 'Hall of Halkcyon',
 
     [Parameter(HelpMessage = 'Determines whether the server is visible in the community list')]
     [bool]
